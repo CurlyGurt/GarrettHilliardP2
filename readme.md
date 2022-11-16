@@ -10,11 +10,14 @@ I included a panel to switch between your personal messages and social accounts.
 I began this project by implementing the Weather panel. I did this by learning and using the National Weather Service's API to recieve real-time data.
 I was unable to accurately portray clouds or rain so I decided to make the sun turn into the moon depending on what time of day it is. I was able to retrieve the 
 current date by using Java's Calendar class.
+![2022-11-15 17-51-11](https://user-images.githubusercontent.com/114094237/202066591-ce027ef2-5daf-4e3a-883e-79eedc0d8800.gif)
+
 
 Next, I implemented the News panel. I began the News panel by finding a suitable news API; I decided that NewsData.IO's API was good and signed up for an account
 to acquire an API key. I learned the ins and outs of their API and discovered that you could strip the headline from it. I then found where they made the 
 articles images available and added them to make the panel more visually appealing. I added buttons so that you could scroll to different stories using my
 button code from Project 1.
+![2022-11-15 19-51-36](https://user-images.githubusercontent.com/114094237/202066631-2a16e47f-36b9-4b6d-b715-ec0cfca06731.gif)
 
 After the News Panel, I implemented the Calender panel. I again utilized Java's Calender class to extract the current month and display it at the top. The Calender
 Class also contains a function to extrapolate the current week of the month and I utilized that as well. I decided against doing an entire month like I had 
@@ -34,4 +37,6 @@ Fortunately, I had the foresight to base all of my panels coordinates off of the
  mouseDragged function and my button code from project 1, I was easily able to grab a panel move it. I unfortunately struggled for a bit as my initial code would 
  immediately move the panels top left corner to the mouse pointer instead of the panel staying where it was relative to the mouse panel. I was able to fix this
  using mousePressed and mouseReleased.
+ ![2022-11-15 19-52-14](https://user-images.githubusercontent.com/114094237/202066661-142ee9ea-d50e-4b5f-aaa0-1add530c97be.gif)
+
 # Presentation:
